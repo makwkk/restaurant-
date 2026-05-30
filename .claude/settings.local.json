@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Get-Command gh -ErrorAction SilentlyContinue)",
-      "PowerShell(Get-Command choco -ErrorAction SilentlyContinue)",
-      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\Git\\\\cmd\"; cd \"c:\\\\Users\\\\makwk\\\\Dropbox\\\\Training\\\\000- I LEARN\\\\- Tertiary - Claude Code\\\\restbook\"; echo \"# restaurant-\" >> README.md; git init; git add .; git commit -m \"first commit\"; git branch -M main; git remote add origin https://github.com/makwkk/restaurant-.git; git push -u origin main)"
-    ]
-  }
-}
