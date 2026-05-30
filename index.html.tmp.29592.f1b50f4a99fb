@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison Lumière — Fine French Cuisine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Maison Lumière — home">Maison Lumière</a>
+
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary navigation">
+        <a href="#menu">Menu</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#reservations">Reservations</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero" aria-label="Restaurant hero">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <div class="hero-rule" aria-hidden="true"></div>
+      <h1 class="hero-title">Maison Lumière</h1>
+      <p class="hero-tagline">Authentic French cuisine in the heart of the city</p>
+      <a href="#reservations" class="btn-primary">Reserve a Table</a>
+    </div>
+  </section>
+
+  <!-- ===================== MENU ===================== -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-heading fade-up">
+        <h2>Our Menu</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p class="section-intro">A curated selection of classic French dishes, prepared with seasonal produce and time-honoured technique.</p>
+      </div>
+
+      <!-- Entrées -->
+      <div class="menu-category fade-up">
+        <h3 class="category-title">Entrées</h3>
+      </div>
+      <div class="menu-grid">
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Escargots de Bourgogne — classic French snails baked in garlic herb butter"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Escargots de Bourgogne</h4>
+              <span class="card-price">S$26</span>
+            </div>
+            <p class="card-desc">Burgundy snails baked in garlic, parsley &amp; Chablis butter</p>
+          </div>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Soupe à l'Oignon Gratinée — French onion soup topped with melted Gruyère"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Soupe à l'Oignon Gratinée</h4>
+              <span class="card-price">S$22</span>
+            </div>
+            <p class="card-desc">Caramelised onion broth, crouton, melted Gruyère</p>
+          </div>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Foie Gras Poêlé — pan-seared duck foie gras with brioche and fig compote"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Foie Gras Poêlé</h4>
+              <span class="card-price">S$38</span>
+            </div>
+            <p class="card-desc">Pan-seared duck foie gras, toasted brioche, fig compote</p>
+          </div>
+        </article>
+
+      </div><!-- /menu-grid entrées -->
+
+      <!-- Plats Principaux -->
+      <div class="menu-category fade-up">
+        <h3 class="category-title">Plats Principaux</h3>
+      </div>
+      <div class="menu-grid">
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Coq au Vin — slow-braised chicken in Burgundy wine with mushrooms and lardons"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Coq au Vin</h4>
+              <span class="card-price">S$52</span>
+            </div>
+            <p class="card-desc">Slow-braised chicken in Burgundy wine, mushrooms, pearl onions</p>
+          </div>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Bœuf Bourguignon — classic French beef stew braised in red wine"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Bœuf Bourguignon</h4>
+              <span class="card-price">S$58</span>
+            </div>
+            <p class="card-desc">Braised beef cheek in Pinot Noir, root vegetables, pomme purée</p>
+          </div>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Canard Confit — duck leg confit with Sarladaise potatoes and green salad"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Canard Confit</h4>
+              <span class="card-price">S$54</span>
+            </div>
+            <p class="card-desc">Duck leg confit, Sarladaise potatoes, dressed frisée</p>
+          </div>
+        </article>
+
+      </div><!-- /menu-grid plats -->
+
+      <!-- Desserts -->
+      <div class="menu-category fade-up">
+        <h3 class="category-title">Desserts</h3>
+      </div>
+      <div class="menu-grid">
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Crème Brûlée — classic French vanilla custard with caramelised sugar crust"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Crème Brûlée</h4>
+              <span class="card-price">S$18</span>
+            </div>
+            <p class="card-desc">Tahitian vanilla custard, caramelised sugar, seasonal berries</p>
+          </div>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1519915028121-7d3463d20b2e?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Tarte Tatin — upside-down caramelised apple tart with crème fraîche"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Tarte Tatin</h4>
+              <span class="card-price">S$20</span>
+            </div>
+            <p class="card-desc">Caramelised apple tarte, flaky pastry, crème fraîche</p>
+          </div>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Soufflé au Chocolat — warm dark chocolate soufflé with crème anglaise"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Soufflé au Chocolat</h4>
+              <span class="card-price">S$24</span>
+            </div>
+            <p class="card-desc">Warm Valrhona dark chocolate soufflé, crème anglaise</p>
+          </div>
+        </article>
+
+      </div><!-- /menu-grid desserts -->
+    </div><!-- /container -->
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-heading fade-up">
+        <h2>What Our Guests Say</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p class="section-intro">An experience that lingers long after the last course.</p>
+      </div>
+
+      <div class="carousel-wrap fade-up" aria-label="Guest testimonials carousel">
+        <button class="carousel-btn carousel-prev" id="carousel-prev" aria-label="Previous testimonial">&#8592;</button>
+
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carousel-track">
+
+            <div class="testimonial-card" role="group" aria-label="Testimonial 1 of 3">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>
+                <p>"Every dish was a revelation — the Bœuf Bourguignon transported me straight to Lyon. The sommelier's pairing was impeccable, and the service utterly discreet yet warm. Maison Lumière is now my benchmark for fine dining in the city."</p>
+              </blockquote>
+              <cite>Sophie Laurent — Paris</cite>
+            </div>
+
+            <div class="testimonial-card" role="group" aria-label="Testimonial 2 of 3">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>
+                <p>"I have dined at three-Michelin restaurants across Europe, and Maison Lumière holds its own with effortless grace. The Soufflé au Chocolat alone is worth the reservation. A truly extraordinary evening."</p>
+              </blockquote>
+              <cite>James Whitfield — London</cite>
+            </div>
+
+            <div class="testimonial-card" role="group" aria-label="Testimonial 3 of 3">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>
+                <p>"From the amuse-bouche to the mignardises, not a single moment felt anything less than exceptional. The candlelit ambience is the most romantic in Singapore. We celebrated our anniversary here — we will return without hesitation."</p>
+              </blockquote>
+              <cite>Mei Ling — Singapore</cite>
+            </div>
+
+          </div><!-- /carousel-track -->
+        </div><!-- /carousel-viewport -->
+
+        <button class="carousel-btn carousel-next" id="carousel-next" aria-label="Next testimonial">&#8594;</button>
+      </div><!-- /carousel-wrap -->
+
+      <div class="carousel-dots" id="carousel-dots" aria-label="Testimonial indicators" role="tablist">
+        <button class="dot active" data-index="0" aria-label="Testimonial 1" role="tab" aria-selected="true"></button>
+        <button class="dot" data-index="1" aria-label="Testimonial 2" role="tab" aria-selected="false"></button>
+        <button class="dot" data-index="2" aria-label="Testimonial 3" role="tab" aria-selected="false"></button>
+      </div>
+
+    </div><!-- /container -->
+  </section>
+
+  <!-- ===================== RESERVATIONS ===================== -->
+  <section class="section reservation-section" id="reservations">
+    <div class="container">
+      <div class="reservation-grid">
+
+        <!-- Left: brand copy -->
+        <div class="reservation-copy fade-up">
+          <div class="section-heading" style="text-align:left;">
+            <h2>Reserve Your Table</h2>
+            <div class="section-rule" style="margin-left:0;"></div>
+          </div>
+          <p class="res-body">Allow us to craft an evening tailored to you. Complete the enquiry form and our reservations team will confirm your booking within 24 hours.</p>
+          <div class="res-details">
+            <div class="res-detail-row">
+              <span class="res-detail-label">Hours</span>
+              <span>Tuesday – Sunday</span>
+            </div>
+            <div class="res-detail-row">
+              <span class="res-detail-label">Lunch</span>
+              <span>12:00 – 14:30</span>
+            </div>
+            <div class="res-detail-row">
+              <span class="res-detail-label">Dinner</span>
+              <span>18:30 – 22:00</span>
+            </div>
+            <div class="res-detail-row">
+              <span class="res-detail-label">Phone</span>
+              <span>+65 6321 8800</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <div class="reservation-form-wrap fade-up">
+          <div id="form-success" class="form-success" role="alert" aria-live="polite"></div>
+
+          <form id="reservation-form" novalidate>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="f-name">Full Name <span class="req" aria-hidden="true">*</span></label>
+                <input type="text" id="f-name" name="name" placeholder="Your full name" required autocomplete="name" />
+                <span class="field-error" id="err-name" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-row two-col">
+              <div class="form-group">
+                <label for="f-email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input type="email" id="f-email" name="email" placeholder="you@example.com" required autocomplete="email" />
+                <span class="field-error" id="err-email" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="f-phone">Phone <span class="req" aria-hidden="true">*</span></label>
+                <input type="tel" id="f-phone" name="phone" placeholder="+65 XXXX XXXX" required autocomplete="tel" />
+                <span class="field-error" id="err-phone" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-row two-col">
+              <div class="form-group">
+                <label for="f-date">Date <span class="req" aria-hidden="true">*</span></label>
+                <input type="date" id="f-date" name="date" required />
+                <span class="field-error" id="err-date" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="f-time">Time <span class="req" aria-hidden="true">*</span></label>
+                <select id="f-time" name="time" required>
+                  <option value="" disabled selected>Select a time</option>
+                  <optgroup label="Lunch">
+                    <option value="12:00">12:00</option>
+                    <option value="12:30">12:30</option>
+                    <option value="13:00">13:00</option>
+                    <option value="13:30">13:30</option>
+                    <option value="14:00">14:00</option>
+                  </optgroup>
+                  <optgroup label="Dinner">
+                    <option value="18:30">18:30</option>
+                    <option value="19:00">19:00</option>
+                    <option value="19:30">19:30</option>
+                    <option value="20:00">20:00</option>
+                    <option value="20:30">20:30</option>
+                    <option value="21:00">21:00</option>
+                    <option value="21:30">21:30</option>
+                  </optgroup>
+                </select>
+                <span class="field-error" id="err-time" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="f-guests">Number of Guests <span class="req" aria-hidden="true">*</span></label>
+                <input type="number" id="f-guests" name="guests" min="1" max="20" placeholder="2" required />
+                <span class="field-error" id="err-guests" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="f-requests">Special Requests <span class="optional">(optional)</span></label>
+                <textarea id="f-requests" name="requests" rows="4" placeholder="Dietary requirements, special occasions, seating preferences…"></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Request Reservation</button>
+          </form>
+        </div><!-- /form-wrap -->
+
+      </div><!-- /reservation-grid -->
+    </div><!-- /container -->
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <div class="footer-col">
+        <p class="footer-logo">Maison Lumière</p>
+        <address>
+          28 Bukit Pasoh Road<br />
+          Singapore 089842<br />
+          <a href="tel:+6563218800">+65 6321 8800</a><br />
+          <a href="mailto:reservations@maisonlumiere.sg">reservations@maisonlumiere.sg</a>
+        </address>
+      </div>
+
+      <div class="footer-col">
+        <h4>Opening Hours</h4>
+        <ul>
+          <li><span>Tuesday – Friday</span><span>12:00 – 22:00</span></li>
+          <li><span>Saturday – Sunday</span><span>11:00 – 22:00</span></li>
+          <li><span>Monday</span><span>Closed</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Maison Lumière on Facebook">Facebook</a>
+          <a href="#" aria-label="Maison Lumière on Instagram">Instagram</a>
+          <a href="#" aria-label="Maison Lumière on TripAdvisor">TripAdvisor</a>
+        </div>
+        <p class="footer-tagline">"La lumière qui éclaire la table."</p>
+      </div>
+
+    </div><!-- /footer-grid -->
+    <div class="footer-bar">
+      <p>&copy; <span id="footer-year"></span> Maison Lumière. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
