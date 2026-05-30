@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maison Lumière — Fine French Cuisine</title>
+  <title>Dragon Palace — Fine Chinese Cuisine</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -14,7 +14,9 @@
   <!-- ===================== NAVIGATION ===================== -->
   <header class="site-nav" id="site-nav">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo" aria-label="Maison Lumière — home">Maison Lumière</a>
+      <a href="#hero" class="nav-logo" aria-label="Dragon Palace — home">
+        <span class="nav-logo-zh">龍宮</span> Dragon Palace
+      </a>
 
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -32,9 +34,10 @@
   <section class="hero" id="hero" aria-label="Restaurant hero">
     <div class="hero-overlay" aria-hidden="true"></div>
     <div class="hero-content">
+      <div class="hero-zh" aria-hidden="true">龍宮</div>
       <div class="hero-rule" aria-hidden="true"></div>
-      <h1 class="hero-title">Maison Lumière</h1>
-      <p class="hero-tagline">Authentic French cuisine in the heart of the city</p>
+      <h1 class="hero-title">Dragon Palace</h1>
+      <p class="hero-tagline">Imperial Chinese fine dining — where heritage meets artistry</p>
       <a href="#reservations" class="btn-primary">Reserve a Table</a>
     </div>
   </section>
@@ -43,183 +46,184 @@
   <section class="section menu-section" id="menu">
     <div class="container">
       <div class="section-heading fade-up">
+        <div class="section-zh" aria-hidden="true">美食</div>
         <h2>Our Menu</h2>
         <div class="section-rule" aria-hidden="true"></div>
-        <p class="section-intro">A curated selection of classic French dishes, prepared with seasonal produce and time-honoured technique.</p>
+        <p class="section-intro">A curated collection of imperial Chinese recipes, crafted with heritage technique and the finest seasonal ingredients.</p>
       </div>
 
-      <!-- Entrées -->
+      <!-- Starters -->
       <div class="menu-category fade-up">
-        <h3 class="category-title">Entrées</h3>
+        <h3 class="category-title">小食 · Starters</h3>
       </div>
       <div class="menu-grid">
 
         <article class="menu-card fade-up">
           <div class="card-img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Escargots de Bourgogne — classic French snails baked in garlic herb butter"
+              src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Xiaolongbao — Shanghai soup dumplings with crab roe"
               loading="lazy"
             />
           </div>
           <div class="card-body">
             <div class="card-name-row">
-              <h4>Escargots de Bourgogne</h4>
-              <span class="card-price">S$26</span>
+              <h4>Xiaolongbao</h4>
+              <span class="card-price">S$28</span>
             </div>
-            <p class="card-desc">Burgundy snails baked in garlic, parsley &amp; Chablis butter</p>
+            <p class="card-desc">Shanghai soup dumplings, crab roe, hand-folded pastry, Zhenjiang black vinegar</p>
           </div>
         </article>
 
         <article class="menu-card fade-up">
           <div class="card-img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Soupe à l'Oignon Gratinée — French onion soup topped with melted Gruyère"
+              src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Har Gow — crystal prawn dumplings"
               loading="lazy"
             />
           </div>
           <div class="card-body">
             <div class="card-name-row">
-              <h4>Soupe à l'Oignon Gratinée</h4>
-              <span class="card-price">S$22</span>
+              <h4>Har Gow</h4>
+              <span class="card-price">S$24</span>
             </div>
-            <p class="card-desc">Caramelised onion broth, crouton, melted Gruyère</p>
+            <p class="card-desc">Crystal prawn dumplings, bamboo shoot, thin translucent skin, sesame oil</p>
           </div>
         </article>
 
         <article class="menu-card fade-up">
           <div class="card-img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Foie Gras Poêlé — pan-seared duck foie gras with brioche and fig compote"
+              src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Peking Duck Spring Rolls — crispy confit duck with plum sauce"
               loading="lazy"
             />
           </div>
           <div class="card-body">
             <div class="card-name-row">
-              <h4>Foie Gras Poêlé</h4>
-              <span class="card-price">S$38</span>
+              <h4>Duck Spring Rolls</h4>
+              <span class="card-price">S$32</span>
             </div>
-            <p class="card-desc">Pan-seared duck foie gras, toasted brioche, fig compote</p>
+            <p class="card-desc">Crispy Peking duck confit, plum sauce, cucumber julienne, sesame leaf</p>
           </div>
         </article>
 
-      </div><!-- /menu-grid entrées -->
+      </div><!-- /menu-grid starters -->
 
-      <!-- Plats Principaux -->
+      <!-- Signature Mains -->
       <div class="menu-category fade-up">
-        <h3 class="category-title">Plats Principaux</h3>
+        <h3 class="category-title">主菜 · Signature Mains</h3>
       </div>
       <div class="menu-grid">
+
+        <article class="menu-card menu-card--featured fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80&auto=format&fit=crop&h=500"
+              alt="Imperial Peking Duck — whole duck hand-carved tableside"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Imperial Peking Duck <span class="card-signature">龍宮招牌</span></h4>
+              <span class="card-price">S$128</span>
+            </div>
+            <p class="card-desc">Whole Shāndōng duck, hand-carved tableside, mandarin pancakes, scallion brush, cucumber, house-crafted plum sauce — serves two</p>
+          </div>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Mapo Tofu — silken tofu with A5 wagyu and Sichuan peppercorn"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-name-row">
+              <h4>Mapo Tofu</h4>
+              <span class="card-price">S$56</span>
+            </div>
+            <p class="card-desc">Silken tofu, A5 wagyu mince, Sichuan doubanjiang, numbing peppercorn oil, flowering chive</p>
+          </div>
+        </article>
 
         <article class="menu-card fade-up">
           <div class="card-img-wrap">
             <img
               src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Coq au Vin — slow-braised chicken in Burgundy wine with mushrooms and lardons"
+              alt="Boston Lobster XO — wok-seared with XO cognac sauce"
               loading="lazy"
             />
           </div>
           <div class="card-body">
             <div class="card-name-row">
-              <h4>Coq au Vin</h4>
-              <span class="card-price">S$52</span>
+              <h4>Boston Lobster XO</h4>
+              <span class="card-price">S$98</span>
             </div>
-            <p class="card-desc">Slow-braised chicken in Burgundy wine, mushrooms, pearl onions</p>
+            <p class="card-desc">Live 1.5 kg lobster, wok-seared, XO cognac sauce, glass noodles, garlic chilli oil</p>
           </div>
         </article>
 
-        <article class="menu-card fade-up">
-          <div class="card-img-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Bœuf Bourguignon — classic French beef stew braised in red wine"
-              loading="lazy"
-            />
-          </div>
-          <div class="card-body">
-            <div class="card-name-row">
-              <h4>Bœuf Bourguignon</h4>
-              <span class="card-price">S$58</span>
-            </div>
-            <p class="card-desc">Braised beef cheek in Pinot Noir, root vegetables, pomme purée</p>
-          </div>
-        </article>
-
-        <article class="menu-card fade-up">
-          <div class="card-img-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Canard Confit — duck leg confit with Sarladaise potatoes and green salad"
-              loading="lazy"
-            />
-          </div>
-          <div class="card-body">
-            <div class="card-name-row">
-              <h4>Canard Confit</h4>
-              <span class="card-price">S$54</span>
-            </div>
-            <p class="card-desc">Duck leg confit, Sarladaise potatoes, dressed frisée</p>
-          </div>
-        </article>
-
-      </div><!-- /menu-grid plats -->
+      </div><!-- /menu-grid mains -->
 
       <!-- Desserts -->
       <div class="menu-category fade-up">
-        <h3 class="category-title">Desserts</h3>
+        <h3 class="category-title">甜品 · Desserts</h3>
       </div>
       <div class="menu-grid">
 
         <article class="menu-card fade-up">
           <div class="card-img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Crème Brûlée — classic French vanilla custard with caramelised sugar crust"
+              src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Mango Pomelo Sago — Hong Kong style chilled dessert"
               loading="lazy"
             />
           </div>
           <div class="card-body">
             <div class="card-name-row">
-              <h4>Crème Brûlée</h4>
-              <span class="card-price">S$18</span>
+              <h4>Mango Pomelo Sago</h4>
+              <span class="card-price">S$22</span>
             </div>
-            <p class="card-desc">Tahitian vanilla custard, caramelised sugar, seasonal berries</p>
+            <p class="card-desc">Fresh Alphonso mango purée, pomelo pearls, coconut sago, condensed milk snow</p>
           </div>
         </article>
 
         <article class="menu-card fade-up">
           <div class="card-img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1519915028121-7d3463d20b2e?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Tarte Tatin — upside-down caramelised apple tart with crème fraîche"
+              src="https://images.unsplash.com/photo-1540189549336-e6e99eb4b687?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Black Sesame Tang Yuan in warm osmanthus broth"
               loading="lazy"
             />
           </div>
           <div class="card-body">
             <div class="card-name-row">
-              <h4>Tarte Tatin</h4>
+              <h4>Black Sesame Tang Yuan</h4>
               <span class="card-price">S$20</span>
             </div>
-            <p class="card-desc">Caramelised apple tarte, flaky pastry, crème fraîche</p>
+            <p class="card-desc">Glutinous rice dumplings, crushed black sesame, warm osmanthus honey broth</p>
           </div>
         </article>
 
         <article class="menu-card fade-up">
           <div class="card-img-wrap">
             <img
-              src="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?w=800&q=80&auto=format&fit=crop&h=600"
-              alt="Soufflé au Chocolat — warm dark chocolate soufflé with crème anglaise"
+              src="https://images.unsplash.com/photo-1471443786035-a1f47cd7e614?w=800&q=80&auto=format&fit=crop&h=600"
+              alt="Thousand-Layer Egg Tart with Pu-erh custard and gold leaf"
               loading="lazy"
             />
           </div>
           <div class="card-body">
             <div class="card-name-row">
-              <h4>Soufflé au Chocolat</h4>
+              <h4>Thousand-Layer Egg Tart</h4>
               <span class="card-price">S$24</span>
             </div>
-            <p class="card-desc">Warm Valrhona dark chocolate soufflé, crème anglaise</p>
+            <p class="card-desc">Flaky puff pastry, Pu-erh tea egg custard, edible 24K gold leaf</p>
           </div>
         </article>
 
@@ -231,9 +235,10 @@
   <section class="section testimonials-section" id="testimonials">
     <div class="container">
       <div class="section-heading fade-up">
+        <div class="section-zh" aria-hidden="true">口碑</div>
         <h2>What Our Guests Say</h2>
         <div class="section-rule" aria-hidden="true"></div>
-        <p class="section-intro">An experience that lingers long after the last course.</p>
+        <p class="section-intro">An imperial feast that lingers long after the last morsel.</p>
       </div>
 
       <div class="carousel-wrap fade-up" aria-label="Guest testimonials carousel">
@@ -245,25 +250,25 @@
             <div class="testimonial-card" role="group" aria-label="Testimonial 1 of 3">
               <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
               <blockquote>
-                <p>"Every dish was a revelation — the Bœuf Bourguignon transported me straight to Lyon. The sommelier's pairing was impeccable, and the service utterly discreet yet warm. Maison Lumière is now my benchmark for fine dining in the city."</p>
+                <p>"The Imperial Peking Duck is among the finest I have tasted — and I have dined at Quanjude in Beijing. The skin: lacquered perfection. The service: discreetly attentive. Dragon Palace has elevated what I thought Chinese fine dining could be."</p>
               </blockquote>
-              <cite>Sophie Laurent — Paris</cite>
+              <cite>Wei Jianming — Shanghai</cite>
             </div>
 
             <div class="testimonial-card" role="group" aria-label="Testimonial 2 of 3">
               <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
               <blockquote>
-                <p>"I have dined at three-Michelin restaurants across Europe, and Maison Lumière holds its own with effortless grace. The Soufflé au Chocolat alone is worth the reservation. A truly extraordinary evening."</p>
+                <p>"The Xiaolongbao arrived in a handcrafted bamboo steamer — each fold precise, each bite a burst of umami. The Mapo Tofu balanced fire and silk in a way I have never experienced outside Chengdu. A truly extraordinary evening."</p>
               </blockquote>
-              <cite>James Whitfield — London</cite>
+              <cite>Amara Chen — Hong Kong</cite>
             </div>
 
             <div class="testimonial-card" role="group" aria-label="Testimonial 3 of 3">
               <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
               <blockquote>
-                <p>"From the amuse-bouche to the mignardises, not a single moment felt anything less than exceptional. The candlelit ambience is the most romantic in Singapore. We celebrated our anniversary here — we will return without hesitation."</p>
+                <p>"We celebrated our anniversary here, and every moment was curated with care — from the gold-rimmed tea service to the final osmanthus Tang Yuan. Dragon Palace is not merely a restaurant; it is a ceremony."</p>
               </blockquote>
-              <cite>Mei Ling — Singapore</cite>
+              <cite>Lim Jun Kai &amp; Fiona Lim — Singapore</cite>
             </div>
 
           </div><!-- /carousel-track -->
@@ -289,10 +294,11 @@
         <!-- Left: brand copy -->
         <div class="reservation-copy fade-up">
           <div class="section-heading" style="text-align:left;">
+            <div class="section-zh" style="text-align:left;" aria-hidden="true">訂位</div>
             <h2>Reserve Your Table</h2>
             <div class="section-rule" style="margin-left:0;"></div>
           </div>
-          <p class="res-body">Allow us to craft an evening tailored to you. Complete the enquiry form and our reservations team will confirm your booking within 24 hours.</p>
+          <p class="res-body">Allow us to craft an imperial dining experience tailored to you. Complete the enquiry form and our reservations team will confirm your booking within 24 hours.</p>
           <div class="res-details">
             <div class="res-detail-row">
               <span class="res-detail-label">Hours</span>
@@ -399,12 +405,12 @@
     <div class="container footer-grid">
 
       <div class="footer-col">
-        <p class="footer-logo">Maison Lumière</p>
+        <p class="footer-logo">龍宮 Dragon Palace</p>
         <address>
           28 Bukit Pasoh Road<br />
           Singapore 089842<br />
           <a href="tel:+6563218800">+65 6321 8800</a><br />
-          <a href="mailto:reservations@maisonlumiere.sg">reservations@maisonlumiere.sg</a>
+          <a href="mailto:reservations@dragonpalace.sg">reservations@dragonpalace.sg</a>
         </address>
       </div>
 
@@ -420,16 +426,16 @@
       <div class="footer-col">
         <h4>Follow Us</h4>
         <div class="social-links">
-          <a href="#" aria-label="Maison Lumière on Facebook">Facebook</a>
-          <a href="#" aria-label="Maison Lumière on Instagram">Instagram</a>
-          <a href="#" aria-label="Maison Lumière on TripAdvisor">TripAdvisor</a>
+          <a href="#" aria-label="Dragon Palace on Facebook">Facebook</a>
+          <a href="#" aria-label="Dragon Palace on Instagram">Instagram</a>
+          <a href="#" aria-label="Dragon Palace on TripAdvisor">TripAdvisor</a>
         </div>
-        <p class="footer-tagline">"La lumière qui éclaire la table."</p>
+        <p class="footer-tagline">"龍飛鳳舞 — Where the dragon dances."</p>
       </div>
 
     </div><!-- /footer-grid -->
     <div class="footer-bar">
-      <p>&copy; <span id="footer-year"></span> Maison Lumière. All rights reserved.</p>
+      <p>&copy; <span id="footer-year"></span> Dragon Palace. All rights reserved.</p>
     </div>
   </footer>
 
